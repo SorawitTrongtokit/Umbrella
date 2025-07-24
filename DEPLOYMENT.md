@@ -33,13 +33,16 @@ git push -u origin main
 In Netlify dashboard, go to Site Settings → Environment Variables and add:
 
 ```
-VITE_FIREBASE_API_KEY=your_actual_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-VITE_FIREBASE_DATABASE_URL=https://your_project-default-rtdb.region.firebasedatabase.app
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
+VITE_FIREBASE_API_KEY=AIzaSyCKrI6yFRoRW9QlYQY9VxMe0DxC1yTEusw
+VITE_FIREBASE_AUTH_DOMAIN=umbrella-system-e0ae7.firebaseapp.com
+VITE_FIREBASE_DATABASE_URL=https://umbrella-system-e0ae7-default-rtdb.asia-southeast1.firebasedatabase.app
+VITE_FIREBASE_PROJECT_ID=umbrella-system-e0ae7
+VITE_FIREBASE_STORAGE_BUCKET=umbrella-system-e0ae7.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=644775621893
+VITE_FIREBASE_APP_ID=1:644775621893:web:76175ce428a8d99550336c
+VITE_FIREBASE_MEASUREMENT_ID=G-4J12KF1H0B
+VITE_ADMIN_PASSWORD=umbrella2024
+NODE_VERSION=20
 ```
 
 ### 4. **Deploy**
