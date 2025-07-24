@@ -75,11 +75,12 @@ The system uses Firebase's `onValue` listeners to maintain real-time synchroniza
 
 ## Deployment Strategy
 
-The application is designed for multiple deployment options:
+The application is **deployment-ready** for static hosting platforms:
 
-1. **Firebase Hosting**: Primary deployment target with automatic CI/CD
-2. **Vercel**: Alternative hosting with optimized React builds
-3. **Replit**: Development and quick deployment environment
+1. **Netlify**: Primary deployment target (configured and tested)
+2. **Vercel**: Alternative hosting with optimized React builds  
+3. **Firebase Hosting**: Static hosting option
+4. **Replit**: Development and quick deployment environment
 
 ### Build Process
 - Development: `npm run dev` (Vite dev server + Express.js)
